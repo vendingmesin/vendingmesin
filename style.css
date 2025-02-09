@@ -13,32 +13,51 @@ body {
     text-align: center;
 }
 
-/* Header */
+/* Styling untuk header */
 header {
-    background: linear-gradient(135deg, #ff7b00, #ffbb00);
-    padding: 20px;
-    color: white;
-}
-
-.logo-container {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.logo-container img {
-    width: 80px; /* Sesuaikan ukuran logo */
-    height: auto;
+    background: linear-gradient(to right, #ff8000, #ffa500); /* Warna background gradient */
+    padding: 30px 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan semua elemen */
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Styling untuk logo */
+  .logo-container {
+    width: 100%;
+    position: relative;
+  }
+  
+  .logo-container img {
+    position: absolute;
     border-radius: 50%;
-}
-
-.nama p{
-    font-size: 16px;
+    left: 20px; /* Logo di kiri atas */
+    top: 10px;
+    width: 70px; /* Ukuran logo */
+    height: auto;
+  }
+  
+  /* Styling untuk judul */
+  .logo-container h1 {
+    font-size: 36px;
+    font-weight: bold;
     color: white;
     margin: 0;
-}
+    text-align: center;
+  }
+  
+  /* Styling untuk teks deskripsi */
+  .nama {
+    margin-top: 5px; /* Jarak antara judul dan deskripsi */
+  }
+  
+  .nama p {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
 
 header h1 {
     font-size: 2.5rem;
